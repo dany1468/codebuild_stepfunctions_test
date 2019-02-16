@@ -13,6 +13,7 @@ ProjectSection(SolutionItems) = preProject
 	build.ps1 = build.ps1
 	build.sh = build.sh
 	template.yaml = template.yaml
+	buildspec.yaml = buildspec.yaml
 EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{6DB7C3C2-84DC-4DD5-A070-8E3F186E184F}"

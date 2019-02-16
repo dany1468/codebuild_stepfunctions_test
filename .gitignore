@@ -384,9 +384,9 @@ paket-files/
 __pycache__/
 *.pyc
 
-# Cake - Uncomment if you are using it
-# tools/**
-# !tools/packages.config
+# Cake
+tools/**
+!tools/packages.config
 
 # Telerik's JustMock configuration file
 *.jmconfig
@@ -404,5 +404,3 @@ __pycache__/
 
 # End of https://www.gitignore.io/api/macos,linux,windows,sublimetext,dotsettings,visualstudio,visualstudiocode
 
-# Cake
-tools/*

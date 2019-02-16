@@ -4,4 +4,5 @@ phases:
   build:
     commands:
       - echo Run unit test
+      - chmod +x build.sh
       - ./build.sh

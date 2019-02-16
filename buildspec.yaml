@@ -1,8 +1,17 @@
 version: 0.2
 
 phases:
+  install:
+    commands:
+      - chmod a+x .
   build:
     commands:
       - echo Run unit test
-      - chmod +x build.sh
       - ./build.sh
+  post_build:
+    commands:
+      - aws cloudformation package --template-file template.yaml --s3-bucket sansan-biz-test-dev --output-template-file packaged.yaml
+artifacts:
+  type: zip
+  files:
+    - packaged.yaml

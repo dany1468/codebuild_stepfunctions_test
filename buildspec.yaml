@@ -3,7 +3,7 @@ version: 0.2
 phases:
   install:
     commands:
-      - chmod a+x .
+      - chmod +x build.sh
   build:
     commands:
       - echo Run unit test
